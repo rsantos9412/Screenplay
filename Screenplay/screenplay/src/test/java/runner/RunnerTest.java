@@ -6,9 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        plugin = {"pretty", "html:target/cucumber-reports.html"},
         features = "src/test/resources/features",
         glue = "stepdefinitions",
+        snippets = CucumberOptions.SnippetType.CAMELCASE,
         tags = "@casoBusqueda"
 )
 

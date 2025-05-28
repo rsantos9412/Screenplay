@@ -17,6 +17,7 @@ import static org.hamcrest.Matchers.containsString;
 
 
 public class BuscarStepDefinition {
+
     @Managed(driver = "chrome", uniqueSession = true, options = "--start-maximized")
     WebDriver hisBrowser;
 
@@ -26,7 +27,6 @@ public class BuscarStepDefinition {
     public void queCarlosEstáEnLaPáginaDeWikipedia() {
         hisBrowser = new DriverConfig().newDriver();
         carlos.can(BrowseTheWeb.with(hisBrowser));
-
         carlos.attemptsTo(AbrirNavegador.enLaPaginaPrincipal("https://es.wikipedia.org"));
     }
 

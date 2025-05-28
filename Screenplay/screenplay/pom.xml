@@ -33,13 +33,13 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.32.0</version>
+            <version>4.16.1</version>
         </dependency>
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-devtools-v136</artifactId>
-            <version>4.32.0</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.seleniumhq.selenium</groupId>-->
+<!--            <artifactId>selenium-devtools-v137</artifactId>-->
+<!--            <version>4.16.1</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-core</artifactId>
@@ -48,12 +48,12 @@
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-screenplay</artifactId>
-            <version>3.6.12</version>
+            <version>4.0.30</version>
         </dependency>
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-screenplay-webdriver</artifactId>
-            <version>3.9.8</version>
+            <version>4.0.30</version>
         </dependency>
     </dependencies>
 

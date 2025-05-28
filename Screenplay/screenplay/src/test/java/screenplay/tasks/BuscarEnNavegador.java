@@ -1,10 +1,11 @@
 package screenplay.tasks;
 
+import net.serenitybdd.annotations.Step;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
-import net.thucydides.core.annotations.Step;
+
 import screenplay.ui.BuscarPage;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
